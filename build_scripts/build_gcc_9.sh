@@ -11,7 +11,7 @@
 #======================================================================
 
 # Provide the version of gcc being built (e.g. 9.1.0)
-gcc_version=9.1.0
+gcc_version=9.4.0
 
 # Additional makefile options.  E.g., "-j 4" for parallel builds.  Parallel
 # builds are faster, however it can cause a build to fail if the project
@@ -19,7 +19,7 @@ gcc_version=9.1.0
 #make_flags="-j 2"
 
 # Architecture we are building for.
-arch_flags="-march=x86-64"
+arch_flags="-mcpu=native"
 
 # Target linux/gnu
 build_target=x86_64-unknown-linux-gnu
